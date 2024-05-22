@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class Consulta implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long ID;
 
     @ManyToOne
     @JoinColumn(name = "medico_id", nullable = false)
