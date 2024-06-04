@@ -30,4 +30,5 @@ public class Consulta implements Serializable{
 
     @Column(nullable = false)
     private LocalDateTime dataHora;
+
 }

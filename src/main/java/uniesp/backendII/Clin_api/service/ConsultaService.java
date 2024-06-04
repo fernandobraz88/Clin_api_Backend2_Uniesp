@@ -1,13 +1,14 @@
 package uniesp.backendII.Clin_api.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import uniesp.backendII.Clin_api.model.Consulta;
-import uniesp.backendII.Clin_api.model.Medico;
 import uniesp.backendII.Clin_api.repository.ConsultaRepository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ConsultaService {
 
     @Autowired
